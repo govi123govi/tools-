@@ -6,3 +6,4 @@ if the otp page has a limit for bruteforce try to brute force on next page where
 
 
 3: brute force for old password when we try to update emial or to disable 2fa or any filed which asks for old password try to brute force and see if there is any rate limit on it
+4: check for gauth parameter in repsone it helps to bypass 2fa 
