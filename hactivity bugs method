@@ -4,3 +4,5 @@
 2:tesing bruteforce attack on new password page
 if the otp page has a limit for bruteforce try to brute force on next page where there is  a otp filed :bypassed  :)
 
+
+3: brute force for old password when we try to update emial or to disable 2fa or any filed which asks for old password try to brute force and see if there is any rate limit on it
