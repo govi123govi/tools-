@@ -1,2 +1,3 @@
 1: check for cookie value and try to decrpt
 2: The trick here comes from the fact that the comparison when you create a user is done programmatically (i.e.: in Ruby) but when the user's details get retrieved, the comparison is done by the database. By default, MySQL (with the type VARCHAR) will perform a case-insensitive comparison: "admin" and "Admin" are the same value
+3: This check can also be bypassed based on the way MySQL performs string comparison: MySQL ignores trailing spaces (i.e.: pentesterlab and pentesterlab[space] are equals
