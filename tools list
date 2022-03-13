@@ -1,6 +1,7 @@
  docker run -t -i  aaaguirrep/pentest /bin/zsh
 AMASS
 subgen- nice tool
+aiodnsbrute - brute force doman names
 FFUF:  ffuf -w /tools/wordlist/SecLists/Discovery/Web-Content/raft-large-directories-lowercase.txt -u
 SUBFINDER
 MEG
